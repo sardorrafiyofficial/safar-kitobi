@@ -1,0 +1,6 @@
+node_modules
+dist
+.env
+scripts/kalitlar.local.json
+supabase/qr_kalitlar.sql
+chop-etish/

@@ -1,0 +1,179 @@
+{
+  "radius_m": 150,
+  "turlar": {
+    "ziyoratgoh": {
+      "uz": "Ziyoratgoh",
+      "ru": "Святыня",
+      "en": "Shrine"
+    },
+    "tarix": {
+      "uz": "Tarixiy joy",
+      "ru": "Историческое место",
+      "en": "Historic site"
+    },
+    "tabiat": {
+      "uz": "Tabiat",
+      "ru": "Природа",
+      "en": "Nature"
+    },
+    "ilm": {
+      "uz": "Ilm-fan",
+      "ru": "Наука",
+      "en": "Science"
+    }
+  },
+  "joylar": [
+    {
+      "id": "kenglik-stansiyasi",
+      "tur": "ilm",
+      "tasdiqlangan": true,
+      "gps": {
+        "lat": 39.135,
+        "lng": 66.884
+      },
+      "nom": {
+        "uz": "Xalqaro kenglik stansiyasi",
+        "ru": "Международная широтная станция",
+        "en": "International Latitude Station"
+      },
+      "matn": {
+        "uz": "1930-yilda tashkil etilgan. Yer qutblarining siljishini kuzatgan dunyodagi bir necha kenglik stansiyasidan biri.",
+        "ru": "Основана в 1930 году. Одна из немногих в мире станций, наблюдавших движение полюсов Земли.",
+        "en": "Founded in 1930. One of the few stations in the world that tracked the motion of Earth's poles."
+      }
+    },
+    {
+      "id": "joy-2",
+      "tur": "ziyoratgoh",
+      "tasdiqlangan": false,
+      "gps": {
+        "lat": 39.13,
+        "lng": 66.86
+      },
+      "nom": {
+        "uz": "Ziyoratgoh 2 (namuna)",
+        "ru": "Святыня 2 (пример)",
+        "en": "Shrine 2 (sample)"
+      },
+      "matn": {
+        "uz": "Haqiqiy nom, tarix va rasm hokimiyat bilan kelishilgach kiritiladi.",
+        "ru": "Настоящее название, история и фото будут добавлены после согласования.",
+        "en": "The real name, history and photo will be added once agreed."
+      }
+    },
+    {
+      "id": "joy-3",
+      "tur": "tarix",
+      "tasdiqlangan": false,
+      "gps": {
+        "lat": 39.108,
+        "lng": 66.895
+      },
+      "nom": {
+        "uz": "Tarixiy joy 3 (namuna)",
+        "ru": "Историческое место 3 (пример)",
+        "en": "Historic site 3 (sample)"
+      },
+      "matn": {
+        "uz": "Haqiqiy nom, tarix va rasm hokimiyat bilan kelishilgach kiritiladi.",
+        "ru": "Настоящее название, история и фото будут добавлены после согласования.",
+        "en": "The real name, history and photo will be added once agreed."
+      }
+    },
+    {
+      "id": "joy-4",
+      "tur": "ziyoratgoh",
+      "tasdiqlangan": false,
+      "gps": {
+        "lat": 39.138,
+        "lng": 66.89
+      },
+      "nom": {
+        "uz": "Ziyoratgoh 4 (namuna)",
+        "ru": "Святыня 4 (пример)",
+        "en": "Shrine 4 (sample)"
+      },
+      "matn": {
+        "uz": "Haqiqiy nom, tarix va rasm hokimiyat bilan kelishilgach kiritiladi.",
+        "ru": "Настоящее название, история и фото будут добавлены после согласования.",
+        "en": "The real name, history and photo will be added once agreed."
+      }
+    },
+    {
+      "id": "joy-5",
+      "tur": "tabiat",
+      "tasdiqlangan": false,
+      "gps": {
+        "lat": 39.1,
+        "lng": 66.868
+      },
+      "nom": {
+        "uz": "Tabiat 5 (namuna)",
+        "ru": "Природа 5 (пример)",
+        "en": "Nature 5 (sample)"
+      },
+      "matn": {
+        "uz": "Haqiqiy nom, tarix va rasm hokimiyat bilan kelishilgach kiritiladi.",
+        "ru": "Настоящее название, история и фото будут добавлены после согласования.",
+        "en": "The real name, history and photo will be added once agreed."
+      }
+    },
+    {
+      "id": "joy-6",
+      "tur": "tarix",
+      "tasdiqlangan": false,
+      "gps": {
+        "lat": 39.123,
+        "lng": 66.91
+      },
+      "nom": {
+        "uz": "Tarixiy joy 6 (namuna)",
+        "ru": "Историческое место 6 (пример)",
+        "en": "Historic site 6 (sample)"
+      },
+      "matn": {
+        "uz": "Haqiqiy nom, tarix va rasm hokimiyat bilan kelishilgach kiritiladi.",
+        "ru": "Настоящее название, история и фото будут добавлены после согласования.",
+        "en": "The real name, history and photo will be added once agreed."
+      }
+    },
+    {
+      "id": "joy-7",
+      "tur": "ziyoratgoh",
+      "tasdiqlangan": false,
+      "gps": {
+        "lat": 39.093,
+        "lng": 66.884
+      },
+      "nom": {
+        "uz": "Ziyoratgoh 7 (namuna)",
+        "ru": "Святыня 7 (пример)",
+        "en": "Shrine 7 (sample)"
+      },
+      "matn": {
+        "uz": "Haqiqiy nom, tarix va rasm hokimiyat bilan kelishilgach kiritiladi.",
+        "ru": "Настоящее название, история и фото будут добавлены после согласования.",
+        "en": "The real name, history and photo will be added once agreed."
+      }
+    },
+    {
+      "id": "joy-8",
+      "tur": "tabiat",
+      "tasdiqlangan": false,
+      "gps": {
+        "lat": 39.146,
+        "lng": 66.874
+      },
+      "nom": {
+        "uz": "Tabiat 8 (namuna)",
+        "ru": "Природа 8 (пример)",
+        "en": "Nature 8 (sample)"
+      },
+      "matn": {
+        "uz": "Haqiqiy nom, tarix va rasm hokimiyat bilan kelishilgach kiritiladi.",
+        "ru": "Настоящее название, история и фото будут добавлены после согласования.",
+        "en": "The real name, history and photo will be added once agreed."
+      }
+    }
+  ]
+}

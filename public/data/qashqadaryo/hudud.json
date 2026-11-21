@@ -1,0 +1,19 @@
+{
+  "id": "qashqadaryo",
+  "nom": {
+    "uz": "Qashqadaryo",
+    "ru": "Кашкадарья",
+    "en": "Kashkadarya"
+  },
+  "tumanlar": [
+    {
+      "id": "kitob",
+      "nom": {
+        "uz": "Kitob",
+        "ru": "Китаб",
+        "en": "Kitob"
+      },
+      "holat": "faol"
+    }
+  ]
+}

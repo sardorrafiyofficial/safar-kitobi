@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Safar Kitobi ranglari: qog'oz + firuza + lojuvard + oltin + muhr qizili */
+:root{
+  --qogoz: 246 242 233;  --varaq: 255 253 248; --siyoh: 24 34 32; --kul: 94 107 102; --chiziq: 226 219 204;
+  --firuza: 15 111 108;  --lojuvard: 28 61 110; --oltin: 201 151 43; --muhr: 179 38 30;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --qogoz: 12 21 22; --varaq: 19 32 33; --siyoh: 236 241 239; --kul: 159 177 172; --chiziq: 38 62 62;
+  --firuza: 54 170 164; --lojuvard: 110 150 214; --oltin: 227 181 79; --muhr: 255 107 94; color-scheme: dark; } }
+:root[data-theme="dark"]{
+  --qogoz: 12 21 22; --varaq: 19 32 33; --siyoh: 236 241 239; --kul: 159 177 172; --chiziq: 38 62 62;
+  --firuza: 54 170 164; --lojuvard: 110 150 214; --oltin: 227 181 79; --muhr: 255 107 94; color-scheme: dark; }
+
+html,body,#root{min-height:100%}
+body{ @apply bg-qogoz text-siyoh font-matn antialiased; }
+h1,h2,h3{ text-wrap: balance; }
+.wrap{ max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.varaq{ @apply bg-varaq border border-chiziq rounded-varaq; }
+.btn{ @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-3 font-bold transition active:scale-[.98] focus-visible:outline focus-visible:outline-2 focus-visible:outline-oltin; }
+.btn-oltin{ @apply btn bg-oltin text-[#1b1404]; }
+.btn-firuza{ @apply btn bg-firuza text-white; }
+.btn-chiziq{ @apply btn border border-chiziq text-siyoh bg-transparent; }
+.tag{ @apply text-[11px] font-bold uppercase tracking-[.1em] text-oltin; }
+
+/* Leaflet xarita markerlari */
+.marker{ width:34px;height:34px;border-radius:50%;display:grid;place-items:center;font:800 13px Manrope,sans-serif;color:#fff;
+  background:rgb(var(--firuza));border:3px solid #fff;box-shadow:0 2px 8px rgba(0,0,0,.35); }
+.marker.olingan{ background:rgb(var(--muhr)); }
+.marker.tez{ background:#8a9592; }
+.leaflet-container{ font-family: Manrope, system-ui, sans-serif; border-radius: 18px; }
+
+@keyframes muhr { 0%{transform:scale(1.8) rotate(-25deg);opacity:0} 100%{transform:scale(1) rotate(-8deg);opacity:1} }
+.muhr-anim{ animation: muhr .4s ease-out both; }
+@media (prefers-reduced-motion: reduce){ .muhr-anim{ animation:none } }

@@ -1,0 +1,203 @@
+{
+  "versiya": 1,
+  "hududlar": [
+    {
+      "id": "toshkent-sh",
+      "nom": {
+        "uz": "Toshkent shahri",
+        "ru": "Город Ташкент",
+        "en": "Tashkent City"
+      },
+      "gps": {
+        "lat": 41.311,
+        "lng": 69.279
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "toshkent",
+      "nom": {
+        "uz": "Toshkent viloyati",
+        "ru": "Ташкентская область",
+        "en": "Tashkent Region"
+      },
+      "gps": {
+        "lat": 41.04,
+        "lng": 69.36
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "andijon",
+      "nom": {
+        "uz": "Andijon",
+        "ru": "Андижан",
+        "en": "Andijan"
+      },
+      "gps": {
+        "lat": 40.783,
+        "lng": 72.344
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "fargona",
+      "nom": {
+        "uz": "Farg'ona",
+        "ru": "Фергана",
+        "en": "Fergana"
+      },
+      "gps": {
+        "lat": 40.389,
+        "lng": 71.786
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "namangan",
+      "nom": {
+        "uz": "Namangan",
+        "ru": "Наманган",
+        "en": "Namangan"
+      },
+      "gps": {
+        "lat": 40.998,
+        "lng": 71.672
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "sirdaryo",
+      "nom": {
+        "uz": "Sirdaryo",
+        "ru": "Сырдарья",
+        "en": "Syrdarya"
+      },
+      "gps": {
+        "lat": 40.49,
+        "lng": 68.78
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "jizzax",
+      "nom": {
+        "uz": "Jizzax",
+        "ru": "Джизак",
+        "en": "Jizzakh"
+      },
+      "gps": {
+        "lat": 40.115,
+        "lng": 67.842
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "samarqand",
+      "nom": {
+        "uz": "Samarqand",
+        "ru": "Самарканд",
+        "en": "Samarkand"
+      },
+      "gps": {
+        "lat": 39.654,
+        "lng": 66.959
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "qashqadaryo",
+      "nom": {
+        "uz": "Qashqadaryo",
+        "ru": "Кашкадарья",
+        "en": "Kashkadarya"
+      },
+      "gps": {
+        "lat": 38.86,
+        "lng": 65.79
+      },
+      "holat": "faol",
+      "tumanlar": [
+        "kitob"
+      ]
+    },
+    {
+      "id": "surxondaryo",
+      "nom": {
+        "uz": "Surxondaryo",
+        "ru": "Сурхандарья",
+        "en": "Surkhandarya"
+      },
+      "gps": {
+        "lat": 37.224,
+        "lng": 67.278
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "buxoro",
+      "nom": {
+        "uz": "Buxoro",
+        "ru": "Бухара",
+        "en": "Bukhara"
+      },
+      "gps": {
+        "lat": 39.767,
+        "lng": 64.423
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "navoiy",
+      "nom": {
+        "uz": "Navoiy",
+        "ru": "Навои",
+        "en": "Navoi"
+      },
+      "gps": {
+        "lat": 40.103,
+        "lng": 65.379
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "xorazm",
+      "nom": {
+        "uz": "Xorazm",
+        "ru": "Хорезм",
+        "en": "Khorezm"
+      },
+      "gps": {
+        "lat": 41.55,
+        "lng": 60.63
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    },
+    {
+      "id": "qoraqalpogiston",
+      "nom": {
+        "uz": "Qoraqalpog'iston",
+        "ru": "Каракалпакстан",
+        "en": "Karakalpakstan"
+      },
+      "gps": {
+        "lat": 42.46,
+        "lng": 59.61
+      },
+      "holat": "tez_kunda",
+      "tumanlar": []
+    }
+  ]
+}

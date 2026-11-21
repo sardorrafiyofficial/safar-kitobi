@@ -1,0 +1,49 @@
+{
+  "id": "kitob",
+  "hudud": "qashqadaryo",
+  "nom": {
+    "uz": "Kitob tumani",
+    "ru": "Китабский район",
+    "en": "Kitob District"
+  },
+  "tavsif": {
+    "uz": "39-shimoliy kenglikdagi qadimiy voha: ziyoratgohlar, tarix va tog' tabiati.",
+    "ru": "Древний оазис на 39-й северной широте: святыни, история и горная природа.",
+    "en": "An ancient oasis on the 39th parallel: shrines, history and mountain nature."
+  },
+  "markaz": {
+    "lat": 39.118,
+    "lng": 66.88
+  },
+  "zoom": 12,
+  "darajalar": [
+    {
+      "id": "bronza",
+      "joylar": 3,
+      "sovga": {
+        "uz": "Hamkorlarda 5% chegirma",
+        "ru": "Скидка 5% у партнёров",
+        "en": "5% off at partners"
+      }
+    },
+    {
+      "id": "kumush",
+      "joylar": 5,
+      "sovga": {
+        "uz": "10% chegirma + bepul choy",
+        "ru": "Скидка 10% + чай в подарок",
+        "en": "10% off + free tea"
+      }
+    },
+    {
+      "id": "oltin",
+      "joylar": "hammasi",
+      "sovga": {
+        "uz": "15% chegirma, suvenir va sertifikat",
+        "ru": "Скидка 15%, сувенир и сертификат",
+        "en": "15% off, souvenir and certificate"
+      }
+    }
+  ],
+  "izoh": "Sovg'alar namuna. Hamkorlar bilan kelishilgach yangilanadi."
+}
