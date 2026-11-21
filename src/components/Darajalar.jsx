@@ -1,8 +1,14 @@
+import { useState } from 'react'
 import { useTil } from '../lib/i18n.jsx'
+import { sovgalar, sovgaOl } from '../lib/sahifalar.js'
 
 // Darajalar tuman.json'dan olinadi: joylar soni har tumanda har xil bo'lishi mumkin
-export default function Darajalar({ darajalar, jami, olingan }){
-  const { t, L } = useTil()
+export default function Darajalar({ tuman, darajalar, jami, olingan }){
+  const { t, L, til } = useTil()
+  const [kodlar, setKodlar] = useState(() => sovgalar())
+  const [band, setBand] = useState(null)
+  const ol = async id => { setBand(id); try { const r = await sovgaOl({ tuman, daraja: id }); if (r?.ok) setKodlar(sovgalar()) } finally { setBand(null) } }
+  const sana = iso => new Date(iso).toLocaleDateString(til === 'en' ? 'en-GB' : til === 'ru' ? 'ru-RU' : 'uz-UZ')
   const kerak = d => d.joylar === 'hammasi' ? jami : d.joylar
   const rang = { bronza: '#b07a45', kumush: '#8f9aa3', oltin: 'rgb(var(--oltin))' }
   return (
@@ -18,13 +24,21 @@ export default function Darajalar({ darajalar, jami, olingan }){
         {darajalar.map(d => {
           const n = kerak(d), ochiq = olingan >= n
           return (
-            <li key={d.id} className={`flex items-center gap-3 rounded-xl border p-3 ${ochiq ? 'border-oltin bg-oltin/10' : 'border-chiziq'}`}>
+            <li key={d.id} className={`rounded-xl border p-3 ${ochiq ? 'border-oltin bg-oltin/10' : 'border-chiziq'}`}>
+              <div className="flex items-center gap-3">
               <span className="w-9 h-9 rounded-full grid place-items-center font-extrabold text-white shrink-0" style={{ background: rang[d.id] }}>{n}</span>
               <div className="min-w-0 flex-1">
                 <div className="font-bold">{t(d.id)} {ochiq && <span className="text-oltin">· {t('ochildi')}</span>}</div>
                 <div className="text-sm text-kul">{L(d.sovga)}</div>
               </div>
               {!ochiq && <span className="text-xs text-kul whitespace-nowrap">{n - olingan} {t('qoldi')}</span>}
+              </div>
+              {ochiq && tuman && (() => { const k = kodlar[`${tuman}/${d.id}`]; return k
+                ? <div className="mt-3 rounded-lg border-2 border-dashed border-oltin bg-varaq p-3 text-center">
+                    <div className="font-sarlavha font-bold text-2xl tracking-widest tabular-nums">{k.kod}</div>
+                    <div className="text-xs text-kul mt-1">{t('sovga_kod')} · {sana(k.muddat)} {t('gacha')}</div>
+                  </div>
+                : <button className="btn btn-oltin w-full mt-3" disabled={band === d.id} onClick={() => ol(d.id)}>{t('sovga_ol')}</button> })()}
             </li>
           )
         })}

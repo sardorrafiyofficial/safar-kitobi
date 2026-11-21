@@ -23,7 +23,7 @@ export default function Tuman(){
       </section>
       <Xarita markaz={tm.markaz} zoom={tm.zoom}
         nuqtalar={list.map(j => ({ id: j.id, gps: j.gps, nom: L(j.nom), belgi: j.ol ? '✓' : j.n, klass: j.ol ? 'olingan' : '', bosish: () => nav(`/joy/${hudud}/${tid}/${j.id}`) }))} />
-      <Darajalar darajalar={tm.darajalar} jami={list.length} olingan={olingan} />
+      <Darajalar tuman={`${hudud}/${tid}`} darajalar={tm.darajalar} jami={list.length} olingan={olingan} />
       <section>
         <h2 className="font-sarlavha font-bold text-xl mb-3">{t('joylar')}</h2>
         <ol className="grid gap-2">
