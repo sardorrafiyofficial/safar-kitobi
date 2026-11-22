@@ -4,6 +4,9 @@
 - Egasi: Sardor Rafiev, Royal Fix (@royalfix.uz), Kitob tumani, Qashqadaryo.
 - Javoblar **o'zbek tilida (lotin)**, qisqa va aniq bo'lsin. Egasi telefonda (Android, Termux) ishlaydi, shuning uchun buyruqlarni bittadan, nusxalashga qulay qilib bering.
 
+## Yangi sessiya boshlanganda
+Avval faqat loyihani topib tanigan-tanimaganingni 2–3 qatorda ayt (nomi, hozirgi holat), keyin **hech narsa qilmasdan egasining buyrug'ini kut**. O'zingdan ish boshlama.
+
 ## G'oya
 "Safar Kitobi — Har bir joy, bir sahifa". Turizm veb-ilovasi, keyinchalik APK.
 - Har bir ziyoratgoh, tarixiy yoki tabiiy joyda QR kodli taxtacha turadi. Turist uni skanerlaydi va "sahifa" (muhr) oladi.
